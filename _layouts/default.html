@@ -1,0 +1,73 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+    
+  <style>
+    .icon{
+    text-align:center;
+    }
+    .info {
+    text-align: left;
+    }
+      
+    a {color: inherit; text-decoration: inherit; }
+    a:hoover {text-decoration: underline; }
+  </style>  
+
+</head>
+<body>
+
+  <!-- title -->
+  <div class="title">
+    <h2>
+      Jesse van Oostrum
+    </h2>
+  </div>
+
+  <!-- page -->
+  <div class="page">
+
+    <div class="photo-infos">
+
+      <div class="photo">
+        <img src=/assets/images/photo2.jpg alt="Photo of Jesse van Oostrum">
+      </div>
+
+      <div class="infos-div">
+        <table class="infos" >
+          <tr>
+            <td class="icon">
+              <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
+            </td>
+            <td class="info">
+              Hamburg
+            </td>
+          </tr>
+          <tr>
+            <td class="icon">
+              <i class="fas fa-university" aria-hidden="true"></i>
+            </td>
+            <td class="info">
+              <a href="https://tuhh.de">  TUHH </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+  </div>
+       
+</body>
+
+

@@ -1,0 +1,93 @@
+
+$small: 568px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+
+$colors: false;
+
+.title { 
+  padding-left:10px; 
+  border-bottom: 1px solid whitesmoke;
+}
+
+.title > h2 {
+  color:grey;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  @media (min-width: $medium) {
+    flex-direction: row
+  }
+}
+
+.photo-infos {
+  @if $colors{
+    background-color: lightblue;
+  }
+  display: flex;
+  flex-direction: column;
+  @media (min-width: $small) {
+    flex-direction: row;
+    align-items: center;
+
+  }
+  @media (min-width: $medium) {
+    flex-direction: column;
+    flex-basis: 30%;
+  }
+}
+
+.photo {
+  display: flex;
+  @if $colors {background-color: red;}
+  justify-content: center;
+  @media (min-width: $small) {
+  }
+}
+
+.photo > img {
+  width:80%; padding: 5px; max-width: 200px;
+  border: 1px solid whitesmoke; height: auto; border-radius: 50%;
+}
+
+.infos-div {
+  display: flex;
+  @if $colors {background-color: blue;}
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+ @media (min-width: $small) {
+  }
+  
+}
+
+.infos {
+   @media (min-width: $small) {
+    }
+    @media (min-width: $medium) {
+      
+    }
+  }
+
+
+.content {
+  text-align: top;
+  @if $colors {background-color: orange;}
+  @media (min-width: $medium) {
+    flex-basis: 60%;
+  }
+}
+
+.content > h2 {
+  @media (min-width: $medium) {
+    margin-top: 0;
+  }
+}
+// .infos-div {background-color: blue; height: 100px; display:flex; align-items: center;}
+
