@@ -8,6 +8,11 @@ $max-width: $x-large !default;
 
 $colors: false;
 
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .title { 
   padding-left:10px; 
   border-bottom: 1px solid whitesmoke;
@@ -17,7 +22,7 @@ $colors: false;
   color:grey;
 }
 
-.page {
+.main {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -75,6 +80,15 @@ $colors: false;
     }
   }
 
+.icon{
+  text-align:center;
+  }
+  .info {
+  text-align: left;
+  }
+    
+  a {color: inherit; text-decoration: inherit; }
+  a:hoover {text-decoration: underline; }
 
 .content {
   text-align: top;
