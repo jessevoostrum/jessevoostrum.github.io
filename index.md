@@ -15,10 +15,10 @@ I am a PhD student in the field of mathematics with applications to cognitive sc
 
 
 ### Published
-- Parametrisation Independence of the Natural Gradient in Overparametrised Systems  
-with: Nihat Ay   
-_International Conference on Geometric Science of Information. Springer. 2021, pp. 726– 735._  
-[doi:10.1007/978-3-030-80209-7_78](https://doi.org/10.1007/978-3-030-80209-7_78)
+- Invariance properties of the natural gradient in overparametrised systems  
+with: Johannes Müller, Nihat Ay   
+_Information Geometry. Springer. 2022._  
+[doi:10.1007/s41884-022-00067-9](https://doi.org/10.1007/s41884-022-00067-9)
 
 ## Conferences
 
