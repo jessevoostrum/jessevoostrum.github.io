@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+layout: about
+title: Jesse van Oostrum
 ---
 
 ## About

@@ -1,84 +1,37 @@
 <!doctype html>
 <head>
   <meta charset="utf-8">
-  <title>Jesse van Oostrum</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="/assets/css/styles.css" />
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
-    
+  <!-- <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript> -->
   <style>
   </style>  
-  {% seo %}
 </head>
+
 <body>
 <div class="page">
   
     <nav>
-      <!-- title -->
       <div class="header">
         <div class="title">
-          <h2>
+          <a href="/">
             Jesse van Oostrum
-          </h2>
+          </a>
+        </div>
+        <div class="navigation">
+          <!-- <div class="navigation-block">
+            <a href="/">Home</a>
+          </div> -->
+          <div class="navigation-block">
+            <a href="/blog.html">Blog</a>
+          </div>
         </div>
       </div>
     </nav>
   
-    <!-- main -->
-    <div class="main">
-  
-      <div class="photo-infos">
-  
-        <div class="photo">
-          <img src=/assets/images/photo2.jpg alt="Photo of Jesse van Oostrum">
-        </div>
-  
-        <div class="infos-div">
-          <table class="infos" >
-            <tr>
-              <td class="icon">
-                <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i>
-              </td>
-              <td class="info">
-                Hamburg
-              </td>
-            </tr>
-            <tr>
-              <td class="icon">
-                <i class="fas fa-university" aria-hidden="true"></i>
-              </td>
-              <td class="info">
-                <a target="_blank" href="https://tuhh.de">  TUHH </a>
-              </td>
-            </tr>
-            <tr>
-              <td class="icon">
-                <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-              </td>
-              <td class="info">
-                <a target="_blank" href="https://mailhide.io/e/GfrOzBL1"> Email</a>
-              </td>
-            </tr>
-            <tr>
-              <td class="icon">
-                <i class="fas fa-fw fa-graduation-cap"></i>
-              </td>
-              <td class="info">
-                <a target="_blank" href="https://scholar.google.com/citations?user=Bh8PLOYAAAAJ&hl=en&oi=ao"> Google Scholar</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-  
-      </div>
-  
-      <div class="content">
-        {{ content }}
-      </div>
-  
-    </div>
+    {{ content }}
 </div>
        
 </body>
