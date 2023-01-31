@@ -10,7 +10,8 @@ I am a PhD student in the field of mathematics with applications to cognitive sc
 ## Publications
 
 ### Preprints
-- TBA
+- Inversion of Bayesian Networks   
+[arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
 
 ### Published
 - Bures-Wasserstein geometry for positive-definite Hermitian matrices and their trace-one subset  
