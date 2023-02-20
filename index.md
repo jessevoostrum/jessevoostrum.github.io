@@ -11,6 +11,7 @@ I am a PhD student in the field of mathematics with applications to cognitive sc
 
 ### Preprints
 - Inversion of Bayesian Networks   
+with: Peter van Hintum, Nihat Ay  
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
 
 ### Published
