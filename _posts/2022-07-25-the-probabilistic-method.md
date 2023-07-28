@@ -1,8 +1,10 @@
 ---
 layout: post
 author: jesse
+title: The probabilistic method
 ---
 
+# The Probabilistic Method
 
 Consider the following questions:
 
