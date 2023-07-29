@@ -1,6 +1,7 @@
 ---
 layout: post
 author: jesse
+title: Notation in probability theory
 header-includes: |
     \usepackage{mymacros}
 ---
