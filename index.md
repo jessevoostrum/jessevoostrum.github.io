@@ -9,18 +9,18 @@ I am a PhD student in the field of mathematics with applications to cognitive sc
 
 ## Publications
 
-- On the Fisher-Rao Gradient of the Evidence Lower Bound  
+- **On the Fisher-Rao Gradient of the Evidence Lower Bound**  
 with: Nihat Ay  
 _ICML Duality Workshop 2023_  
 [arXiv:2307.11249](https://arxiv.org/abs/2307.11249)
-- Inversion of Bayesian Networks   
+- **Inversion of Bayesian Networks**   
 with: Peter van Hintum, Nihat Ay  
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
-- Invariance properties of the natural gradient in overparametrised systems  
+- **Invariance properties of the natural gradient in overparametrised systems**  
 with: Johannes Müller, Nihat Ay   
 _Information Geometry. Springer. 2022._  
 [doi:10.1007/s41884-022-00067-9](https://doi.org/10.1007/s41884-022-00067-9) [arXiv:2206.15273](https://arxiv.org/abs/2206.15273)
-- Bures-Wasserstein geometry for positive-definite Hermitian matrices and their trace-one subset  
+- **Bures-Wasserstein geometry for positive-definite Hermitian matrices and their trace-one subset**  
 _Information Geometry. Springer. 2022._   
 [doi:10.1007/s41884-022-00069-7](https://doi.org/10.1007/s41884-022-00069-7) [arXiv:2001.08056](https://arxiv.org/abs/2001.08056)
 

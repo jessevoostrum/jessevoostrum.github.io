@@ -13,10 +13,12 @@ Bad choice of notation can lead to ambiguities and therefore potential failure o
 ## Background
 
 Formally the setting in probability theory is as follows. One has a set $\Omega$ called a _sample space_ together with a set $\Sigma$ containing subsets of $\Omega$ called a $\sigma$-_algebra_. Together $(\Omega, \Sigma)$ are called a _measurable space_. Now we can introduce a _measure_ $\mu$ on $(\Omega, \Sigma)$, which is a map from $\Sigma$ to $\bR_{\geq 0}$. The triple $(\Omega, \Sigma, \mu)$ is called a _measure space_. When $\mu$ satisfies the additional property that $\mu(\Omega) = 1$, $\mu$ is called a _probability measure_, and $(\Omega, \Sigma, \mu)$ is called a probability space, which we fix to be the case. A _random variable_ $X$ is a map from $\Omega$ to $\sS$, where $\sS$ is either finite, in which case $X$ is called _discrete_, or $\sS = \bR^n$, in which case $X$ is called _continuous_. $\sS$ can be equipped with its own $\sigma$-algebra $\cS$ such that $(\sS, \cS)$ becomes a measurable space. The _distribution_ $P$ of $X$ is a measure on $(\sS, \cS)$ such that for $A \in \cS$, $P(A) = \mu(X^{-1}(A))$, i.e. $P$ is the _pushforward measure_ of $\mu$ through $X$. For discrete $X$, the _probability mass function_ $p$ is a function from $\sS$ to $[0,1]$ such that for any subset $S \in \cS$
-$$P(S) = \sum_{x\in S} p(x)$$ 
-For continuous $X$, the _density function_ $p$ of $X$ is a function from $\bR^n$ to $\bR$ such that for any open subset $S \subset \bR^n$ we have
-$$P(S) = \int_S p(x) dx.$$  
 
+$$P(S) = \sum_{x\in S} p(x)$$ 
+
+For continuous $X$, the _density function_ $p$ of $X$ is a function from $\bR^n$ to $\bR$ such that for any open subset $S \subset \bR^n$ we have
+
+$$P(S) = \int_S p(x) dx.$$  
 
 ## Considerations when choosing notation
 
@@ -44,6 +46,7 @@ A $\sigma$-algebra on $\Omega$ is set of subsets of $\Omega$ that satisfies the 
 A measure $\mu$ is a map $\mu:\Sigma \to \bR_{\geq0}$ that satisfies the following properties: 
 - $\mu(\emptyset) = 0$, 
 - For $(A_i)_{i\in\bN} \in \Sigma$ such that $A_k \cap A_l = \emptyset$ for all $k,l \in \bN$, we have 
+
 $$\mu\left(\bigcup_i A_i \right) = \sum_i \mu\left( A_i \right)$$
 
 #### random variable
@@ -51,6 +54,7 @@ A function $f: (\sA, \cA) \to (\sB, \cB)$ is called _measurable_ when for all $B
 
 #### mass and density function 
 These function can also be defined more generally in terms of the Radom-Nikodym derivative. For a reference measure $\nu$ on $(\sS, \cS)$, which is typically the counting measure for finite $\sS$ and the Lebesgue measure for $\sS = \bR$, the $p$ is defined to be 
+
 $$ p(x) = \frac{dP}{d\nu}(x).$$  
 
 
