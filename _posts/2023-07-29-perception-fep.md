@@ -17,7 +17,7 @@ In order to learn the the generative model $p_\theta(x,z)$, the Free energy prin
 
 $$\frac{\partial}{\partial\theta} p_\theta(x) = \sum_z p_\theta(z\mid x) \frac{\partial}{\partial\theta}\ln p_\theta(x,z).$$
 
-Note that in order to compute this gradient we need to have access to $`p_\theta(z\mid x)`$. In the next section we discuss how this can be approximated. 
+Note that in order to compute this gradient we need to have access to $p_\theta(z\mid x)$. In the next section we discuss how this can be approximated. 
 
 
 ## Inference
