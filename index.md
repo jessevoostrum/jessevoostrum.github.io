@@ -15,6 +15,7 @@ _ICML Duality Workshop 2023_
 [arXiv:2307.11249](https://arxiv.org/abs/2307.11249)
 - **Inversion of Bayesian Networks**   
 with: Peter van Hintum, Nihat Ay  
+_accepted at International Journal of Approximate Reasoning_
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
 - **Invariance properties of the natural gradient in overparametrised systems**  
 with: Johannes Müller, Nihat Ay   
@@ -27,9 +28,10 @@ _Information Geometry. Springer. 2022._
 ## Activities
 
 ### Upcoming
-- Santa Fe Institute summer school on "Intelligence & Representation" in Cambridge UK, August 2023
+- The Active Self. Sante Fe Institute working group March 2024
 
 ### Past
+- Santa Fe Institute summer school on "Intelligence & Representation" in Cambridge UK, August 2023
 - IG4DS: Information Geometry for Data Science
 - MoC3: Models of Consciousness 2022
 - WUPES '22: The 12th Workshop on Uncertainty Processing
