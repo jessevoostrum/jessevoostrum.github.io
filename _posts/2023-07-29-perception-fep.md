@@ -24,10 +24,10 @@ Note that in order to compute this gradient we need to have access to $p_\theta(
 
 Assume that we have a model  $p_\theta(x \mid  z)$  of how the world is generating observations $x$ from latent causes $z$, and we have a prior distribution $p_\theta(z)$ over latent causes. Given a specific observation $x$, the goal of inference is to find the posterior distribution $p_\theta(x \mid  z)$. Computing this distribution exactly is often hard. The Free energy principle suggest to find an approximate posterior $q_x(z)$ in a family of distributions $\cQ$ that minimises the following free energy function w.r.t. $q$:
 
-$$\cF(p,q,x) = \sum_z q(z) \ln\frac{q(z)}{p_\theta(x,z)}.$$
+$$F(p,q,x) = \sum_z q(z) \ln\frac{q(z)}{p_\theta(x,z)}.$$
 
 Thus,
 
-$$q_x(z) = \argmin_{q \in \cQ} \cF(p,q,x).$$ 
+$$q_x(z) = \argmin_{q \in \cQ} F(p,q,x).$$ 
 
 Note that when $\cQ$ is the set of all distributions over $z$, $q_x(z)$ will simply be equal to $p_\theta(z\mid x)$. Usually, however, $\cQ$ is does not contain all probability distributions, and is paramtrized by a parameter $\phi$. 
