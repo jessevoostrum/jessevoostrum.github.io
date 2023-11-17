@@ -11,11 +11,11 @@ I am a PhD student in the field of mathematics with applications to cognitive sc
 
 - **On the Fisher-Rao Gradient of the Evidence Lower Bound**  
 with: Nihat Ay  
-_ICML Duality Workshop 2023_  
+_ICML Workshop Duality Principles for Modern Machine Learning 2023_  
 [arXiv:2307.11249](https://arxiv.org/abs/2307.11249)
 - **Inversion of Bayesian Networks**   
 with: Peter van Hintum, Nihat Ay  
-_International Journal of Approximate Reasoning. Elsevier. 2024_
+_International Journal of Approximate Reasoning. Elsevier. 2023_
 [10.1016/j.ijar.2023.109042.][https://doi.org/10.1016/j.ijar.2023.109042.]
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
 - **Invariance properties of the natural gradient in overparametrised systems**  
