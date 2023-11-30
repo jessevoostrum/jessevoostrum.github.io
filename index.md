@@ -16,7 +16,7 @@ _ICML Workshop Duality Principles for Modern Machine Learning 2023_
 - **Inversion of Bayesian Networks**   
 with: Peter van Hintum, Nihat Ay  
 _International Journal of Approximate Reasoning. Elsevier. 2023_
-[10.1016/j.ijar.2023.109042.][https://doi.org/10.1016/j.ijar.2023.109042.]
+[10.1016/j.ijar.2023.109042.](https://doi.org/10.1016/j.ijar.2023.109042.)
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
 - **Invariance properties of the natural gradient in overparametrised systems**  
 with: Johannes Müller, Nihat Ay   

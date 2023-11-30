@@ -13,9 +13,8 @@ frequencies of outcomes in random experiments
 
 _interpretation 2 (Bayesian)_  
 degrees of belief in propositions given the background information  
-‘the probability that Mr. S. was the murderer of Mrs. S., given the evidence’  
-$A$ = Mr. S. was the murderer of Mrs. S. (proposition)  
-$I$ = the evidence (background information)  
+‘the probability that Mr. S. was the murderer of Mrs. S., given the evidence.’  
+
 
 ## Probability theory as extension of logic
 
@@ -27,7 +26,7 @@ The following rule however is incorrect:
 
 $$ (A \implies B) \implies (B \implies A).$$
 
-For example
+Consider the following example propositions: 
 
 - $A$ = it will start to rain by 10 am at the latest;
 - $B$ = the sky will become cloudy before 10 am.
@@ -78,21 +77,11 @@ The extension of the statement $A \implies B$ for uncertain propositions is the 
 
 $$P(B \mid A) > P(A).$$
 
-Recall that in (classical) logic we were not able to deduce from this that $B \implies A$. However, in the extended setting we do have 
+Recall that in (classical) logic we were not able to deduce from this that $B \implies A$. However, in the extended setting we do have (see Appendix)
 
-$$P(A \mid B) > P(B).$$
+$$P(B \mid A) > P(A) \implies P(A \mid B) > P(B).$$
 
 Using our earlier example, this translates to the fact that observing that it is cloudy before 10 will make it more likely that it will rain at 10. 
-
-$$
-\begin{align*}
-    P(A|B) &= \frac{P(AB)}{P(B)} \\
-    &> \frac{P(AB)}{P(B|A)} \\
-    &= \frac{P(B|A)P(A)}{P(B|A)}\\
-    &= P(A)
-\end{align*}
-$$
-
 
 #### Bayes' rule 
 
@@ -149,3 +138,23 @@ $$
     &= 0 + \log(2)
 \end{align*}
 $$
+
+
+## Appendix
+
+#### Extension of logical implication
+
+$$
+\begin{align*}
+    P(A|B) &= \frac{P(AB)}{P(B)} \\
+    &> \frac{P(AB)}{P(B|A)} \\
+    &= \frac{P(B|A)P(A)}{P(B|A)}\\
+    &= P(A)
+\end{align*}
+$$
+
+Note also that this does not contradict the classical case, 
+
+$$ (A \implies B) \not\implies (B \implies A). $$
+
+$A \implies B$ corresponds to $P(B \mid A) = 1$. However, this says nothing about $P(A \mid B)$ being equal to one or not. 

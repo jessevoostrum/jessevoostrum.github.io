@@ -2,8 +2,6 @@
 layout: post
 author: jesse
 title: Estimators
-header-includes: \mid 
-    \usepackage{mymacros}
 ---
 
 # Estimators
@@ -35,7 +33,7 @@ which is the median.
 
 Another objective is the following:
 
-$$a^*_{(2)} =  \argmin_{a'\in \bR} \int (x - a')^2 p(x) dx,$$
+$$a^*_{(1)} =  \argmin_{a'\in \bR} \int (x - a')^2 p(x) dx,$$
 
 which leads to the average, or expected value, of the distribution. I.e.
 
@@ -45,31 +43,74 @@ The last objective we discuss is the following:
 
 $$ a^*_{(3)} = \argmax_{a'\in \bR} p(a').  $$
 
-Which is called the mode. In the context of parameter estimation, where the distribution is a posterior distribution, this estimator is called the maximum a posteriori probability (MAP) estimator.  
+Which is called the mode. In the context of parameter estimation, where the distribution is a posterior distribution, this estimator is called the maximum a posteriori probability (MAP) estimator. Closely related to this is the estimator 
+
+$$ \theta_{\textrm{MLE}} = \argmax_{\theta' \in \bR} p(D|\theta),$$
+
+where 
+$$p(D|\theta)$$ 
+is the likelihood of the data $D$ given a parameter $\theta$. Note that $p(D|\theta)$ as a function of $\theta$ is not a distribution. 
+
 
 ### Estimators in practice
 
+#### 1 urn
 
-#### binomial 
-Suppose I have a coin which lands heads 90% of the time. If I throw this coin $1 * 10^{12}$ times, what would be your guess how often it lands up heads?
+Consider an urn with $N$ balls of which $R$ are red. We draw $n$ balls from the urn without replacement of which $r$ are red. In the post [_Laplace's Rule of Succession_](/blog/laplaces-rule-of-succession) we saw that the posterior belief of the total number of red balls $R$ given total number of balls $N$, data $D = (n,r)$, and initial information about the setup of the experiment $I$ is given by
 
-If your guess is $0.9 * 10^{12}$, you would be optimizing Objective 1 and 3, but actually not Objective 2. Objective 2 is optimized for $a^* = 900000000004$. 
+$$
+\begin{align*}
+    p(R \mid DNI) = \binom{N+1}{n+1}^{-1} \binom{R}{r}\binom{N-R}{n-r}. 
+\end{align*}
+$$
 
-In case we throw $9$ times, the maximum of $p(x)$ lies both at $x = 8$ and $x = 9$.
-Therefore the mode is not unique. The expected value is $8.1$. 
+Suppose $N=100, n=5, r=2$. The plot for the posterior looks as follows: 
 
-#### distribution for which mode and average are more clearly different
+<img src="plot-1-urn.png" width="100%">
 
-#### why is average more natural when choosing an estimator for forward probability, and mode for parameter estimation (MLE)
+The estimators defined above can be plotted as follows: 
+
+<img src="plot-1-urn-with-estimators.png" width="100%">
 
 
-## Appendix
+#### Coin flip
 
-#### answer to question 
-The truth of Statement 2 can easily be proven by taking the derivate of sum w.r.t. $a'$ and setting it to zero. The average can therefore also be seen as the 
-$L^2$ 
-projection of a sequence on the space of constant sequences. 
+Suppose we have a coin that comes up heads a fraction $\theta$. Assuming a uniform prior, the posterior belief about $\theta$ after having observed $r$ times heads after $n$ tosses is given by (see Appendix [_Laplace's Rule of Succession_](/blog/laplaces-rule-of-succession)): 
 
-#### derivation of median
+$$ p(\theta|DI) = \frac{(n+1)!}{r!(n-r)!} \theta^r (1-\theta)^{n-r}. $$
 
-#### show that average and mode for binomial are equal
+For $n = 5$ and $r=3$ the posterior plot looks as follows:
+
+<img src="plot-coin-flip-without-estimators.png" width="100%">
+
+The estimators defined above can be plotted as follows: 
+
+<img src="plot-coin-flip-with-estimators.png" width="100%">
+
+
+## Discussion
+
+In different contexts different estimators are preferred. If you are gambling and $X$ is the random variable representing the profit (revenue - costs) of a bet, the estimator most of interest to you is the expectation of $X$.  
+
+If you have to represent the income distribution in a country, it could be argued that the median is the most representative estimator. 
+
+For (categorical) distribution without a clear distance measure on the sample space, the only possible estimator is the mode. 
+
+### Summarizing the posterior of the coin flip 
+
+It could be argued that the value that summarizes the best the posterior 
+$$ p(\theta|DI) $$
+is the probability of thowing heads on the next throw, 
+$$P(H_{n+1}|DI).$$
+
+In we saw that this is given by 
+
+$$ 
+\begin{align*}
+    P(H_{n+1}|DI) &= \int_0^1 P(H_{n+1}|\theta DI) p(\theta|DI) d \theta \\
+    &= \int_0^1 \theta p(\theta|DI) d \theta,
+\end{align*}
+$$
+
+which is the expected value of the posterior. 
+
