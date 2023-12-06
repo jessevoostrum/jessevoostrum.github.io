@@ -9,7 +9,7 @@ title: Blog
 ### Riddles
 
 - [The Probabilistic Method](/blog/the-probabilistic-method)
-- [100 Blue Dragons](/blog/100-blue-dragons)
+- [100 Red Dragons](/blog/100-red-dragons)
 
 ### Probability theory 
 
