@@ -4,7 +4,7 @@ layout: single
 
 # About this blog
 
-This blog mainly serves as a personal memory aid. It is a collection of interesting insights and questions I am having throughout the course of my PhD.  
+This blog mainly serves as a personal memory aid. It is a collection of interesting insights and questions I am having throughout the course of my PhD. I hope you will find value in it.
 
 
 ## Sources
