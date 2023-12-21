@@ -5,7 +5,9 @@ title: Jesse van Oostrum
 
 ## About
 {: .heading1}
-I am a PhD student in the field of mathematics with applications to cognitive sciences under the supervision of Nihat Ay. I study models for perception, action selection and consciousness using information and probability theory, and in particular Bayesian networks. 
+I am a PhD student in the field of mathematics with applications to cognitive sciences under the supervision of Nihat Ay. I study models of perception, action selection and consciousness using information and probability theory, and in particular Bayesian networks.  
+
+Before, I studied mathematics at the University of Cambridge (Part III) and liberal arts and sciences at University College Utrecht. 
 
 ## Publications
 
@@ -38,3 +40,4 @@ _Information Geometry. Springer. 2022._
 - WUPES '22: The 12th Workshop on Uncertainty Processing
 - Conference on Mathematics of Machine Learning, 2021, Bielefeld, Germany
 - GSI 2021: International Conference on Geometric Science of Information, Paris
+

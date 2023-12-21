@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="favicon.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.65776766"
+     inkscape:cx="373.99224"
+     inkscape:cy="469.77074"
+     inkscape:window-width="1512"
+     inkscape:window-height="945"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="270.08643"
+       y="524.86432"
+       width="213.22613"
+       height="182.97354"
+       id="rect5" />
+    <rect
+       x="355.0124"
+       y="389.27437"
+       width="168.75846"
+       height="158.18828"
+       id="rect4" />
+    <rect
+       x="258.42278"
+       y="338.2459"
+       width="43.738694"
+       height="43.738694"
+       id="rect3" />
+    <rect
+       x="352.09648"
+       y="392.91926"
+       width="87.477388"
+       height="43.374204"
+       id="rect2" />
+    <rect
+       x="352.82546"
+       y="392.55478"
+       width="72.897823"
+       height="44.832161"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#d0d3f7;stroke:none;stroke-width:0.264583;fill-opacity:1;stroke-opacity:1"
+       id="path1"
+       cx="101.15694"
+       cy="109.12688"
+       r="18.698708" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.21489232,0,0,0.21489232,12.961531,9.229189)"
+       id="text4"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:'Vulf Mono';-inkscape-font-specification:'Vulf Mono, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;white-space:pre;shape-inside:url(#rect4);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"><tspan
+         x="355.01172"
+         y="505.93981"
+         id="tspan2"><tspan
+           style="font-weight:300;font-size:133.333px;-inkscape-font-specification:'Vulf Mono, Light Italic'"
+           id="tspan1">J</tspan></tspan></text>
+  </g>
+</svg>
