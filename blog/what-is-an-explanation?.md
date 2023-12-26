@@ -6,7 +6,7 @@ header-includes: \mid
     \usepackage{mymacros}
 ---
 
-# What is an explanation?
+# What is an Explanation?
 
 One often hears statements of the form: $X$ is true because of $Y$. In such a statement $Y$ is an explanation of $X$. The question is when is $Y$ a satisfactory explanation of $X$?
 

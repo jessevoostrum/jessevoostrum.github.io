@@ -21,9 +21,9 @@ title: Blog
 
 ### Mathematics and neuroscience
 
-- [Perception according to the Free Energy Principle](/blog/perception-according-to-the-free-energy-principle)
+- [Perception According to the Free Energy Principle](/blog/perception-according-to-the-free-energy-principle)
 
 ### In Progress
-- [What is an explanation?](/blog/what-is-an-explanation)
+- [What is an Explanation?](/blog/what-is-an-explanation)
 
 

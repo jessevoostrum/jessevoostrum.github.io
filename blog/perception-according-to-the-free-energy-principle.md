@@ -1,12 +1,8 @@
 ---
 layout: post
-author: jesse
-title: Perception according to the Free energy principle
-header-includes: \mid 
-    \usepackage{mymacros}
 ---
 
-# Perception according to the Free energy principle
+# Perception According to the Free Energy Principle
 
 Perception consists of two parts 
 1. learning a generative model of the world 
