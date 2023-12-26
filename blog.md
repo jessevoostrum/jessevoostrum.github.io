@@ -10,6 +10,7 @@ title: Blog
 
 - [The Probabilistic Method](/blog/the-probabilistic-method)
 - [100 Red Dragons](/blog/100-red-dragons)
+- [1001 Bottles of Wine](blog/1001-bottles-of-wine.md)
 
 ### Probability theory 
 
