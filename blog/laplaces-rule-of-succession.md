@@ -45,7 +45,7 @@ $$\frac{r+1}{n+2} = \frac{n(r/n) + 2(1/2)}{n+2}. $$
 
 Note that this can be interpreted as a weighted average of the observation $r/n$ and the prior expectation $1/2$. The data is weighted by $n$ and the prior expectations by $2$. This raises the question, can the prior be interpreted as a posterior distribution resulting from two observations $(n,r) = (2,1)$. The below figure displays how the prior information is pushing the posterior closer to $1/2$. 
 
-<img src="/assets/images/graph-r-n.png" width="500">
+<img src="/assets/images/graph-r-n.png" class="center">
 
 ## Appendix
 
