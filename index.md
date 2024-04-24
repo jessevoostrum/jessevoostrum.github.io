@@ -31,9 +31,10 @@ _Information Geometry. Springer. 2022._
 ## Activities
 
 ### Upcoming
-- The Active Self. Sante Fe Institute working group March 2024
+- TBA
 
 ### Past
+- The Active Self. Sante Fe Institute working group March 2024
 - Santa Fe Institute summer school on "Intelligence & Representation" in Cambridge UK, August 2023
 - IG4DS: Information Geometry for Data Science
 - MoC3: Models of Consciousness 2022
