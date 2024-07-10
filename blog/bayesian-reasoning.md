@@ -42,13 +42,17 @@ Let ‘the degree of belief in proposition $A$, given background information $I$
 - Degrees of belief can be ordered; if $\bel(A)$ is ‘greater’ than $\bel(B)$, and $\bel(B)$ is ‘greater’ than $\bel(C)$, then $\bel(A)$ is ‘greater’ than $\bel(C)$.
 [Consequence: beliefs can be mapped onto real numbers.]
 - The degree of belief in a proposition $A$ and its negation $\bar{A}$ are related. There is a function $f$ such that
+$$
 \begin{align*}
     \bel(\bar{A}) = f(\bel(A)).
 \end{align*}
+$$
 - The degree of belief in a conjunction of propositions $x, y$ ($x$ $\texttt{AND}$ $y$) is related to the degree of belief in the conditional proposition $x | y$ and the degree of belief in the proposition $y$. There is a function $g$ such that
+$$
 \begin{align*}
     \bel(A,B) = g(\bel(A \mid B), \bel(B)).
 \end{align*}
+$$
 
 From these axioms it follows (skipping some details) that degrees of belief must follow the same rules as probability theory. That is,
 
@@ -64,10 +68,12 @@ $$
 We will therefore use the symbol $P$ instead of $\bel$ from now on.  
 
 From these rules we get the extended sum rule.
+
+$$
 \begin{align*}
     P(A+B) = P(A) + P(B) - P(AB)
 \end{align*}
-
+$$
 
 ### Applications
 
