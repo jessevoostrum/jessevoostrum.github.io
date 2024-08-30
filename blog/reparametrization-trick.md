@@ -25,13 +25,13 @@ $$ g(\epsilon, \theta) \sim p(x \vert \theta). $$
 We can now rewrite the gradient of the expectation as follows
 
 $$ 
-\begin{align}
+\begin{align*}
     \nabla_{\theta} \mathbb{E}_{x \sim p(x \vert \theta)}[f(x)] &= \nabla_{\theta} \mathbb{E}_{\epsilon \sim q}[f(g(\epsilon, \theta))]\\
     &=  \mathbb{E}_{\epsilon \sim q}[ \nabla_{\theta} f(g(\epsilon, \theta))]\\
     &=  \mathbb{E}_{\epsilon \sim q} \left[
         \frac{\partial f}{\partial x} (g(\epsilon, \theta) ) \nabla_{\theta} g(\epsilon, \theta) 
      \right]
-\end{align}
+\end{align*}
 $$
 
 ### Example: Gaussian Distribution
