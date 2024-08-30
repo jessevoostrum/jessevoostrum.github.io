@@ -20,6 +20,10 @@ title: Blog
 - [Laplace's Rule of Succession](/blog/laplaces-rule-of-succession)
 - [Estimators](/blog/estimators)
 
+### Machine Learning
+
+- [Reparametrization Trick](/blog/reparametrization-trick.md)
+
 ### Mathematics and Neuroscience
 
 - [Perception According to the Free Energy Principle](/blog/perception-according-to-the-free-energy-principle)
