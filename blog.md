@@ -22,7 +22,8 @@ title: Blog
 
 ### Machine Learning
 
-- [Reparametrization Trick](/blog/reparametrization-trick.md)
+- [Variational Autoencoder](/blog/variational-autoencoder)
+- [Reparameterization Trick](/blog/reparameterization-trick)
 
 ### Mathematics and Neuroscience
 

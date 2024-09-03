@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jesse
-title: Reparametrization Trick
+title: Reparameterization Trick
 ---
 
 # Reparameterization Trick 
