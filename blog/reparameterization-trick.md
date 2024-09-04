@@ -34,6 +34,8 @@ $$
 \end{align*}
 $$
 
+Note that in order to take the gradient of $g$ w.r.t. $\theta$ we need that $g$ depends continuously on $\theta$. This can only happen when the the random variable $x$ is continuous.
+
 ### Example: Gaussian Distribution
 
 #### Scenario
