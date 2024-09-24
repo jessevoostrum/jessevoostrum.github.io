@@ -7,7 +7,7 @@ title: Reparameterization Trick
 # Reparameterization Trick 
 
 ### Naive Monte Carlo Gradient Estimation
-When we want to estimate the gradient of an expectation, say $$ \mathbb{E}_{x \sim p(x \vert \theta)}[f(x)] $$, with respect to the parameters $$\theta$$, the naive approach is to compute:
+When we want to estimate the gradient of an expectation, say $$ \mathbb{E}_{x \sim p(x \vert \theta)}[f(x)] $$, with respect to the parameter $$\theta$$, the naive approach is to compute:
 
 $$\nabla_{\theta} \mathbb{E}_{x \sim p(x\vert\theta)}[f(x)] = \mathbb{E}_{x \sim p(x\vert\theta)}[f(x) \nabla_{\theta} \log p(x\vert\theta)]$$
 
