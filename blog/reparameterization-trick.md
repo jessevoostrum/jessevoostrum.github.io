@@ -34,7 +34,7 @@ $$
 \end{align*}
 $$
 
-Note that in order to take the gradient of $g$ w.r.t. $\theta$ we need that $g$ depends continuously on $\theta$. This can only happen when the the random variable $x$ is continuous.
+Note that in order to take the gradient of $g$ w.r.t. $\theta$ we need that $g$ depends continuously on $\theta$. Therefore we want the random variable $x$ to be continuous.
 
 ### Example: Gaussian Distribution
 
@@ -46,7 +46,7 @@ $$\mathbb{E}_{x \sim \mathcal{N}(\mu, \sigma^2)}[f(x)]$$
 We want to compute the gradient of this expectation with respect to the parameter $$\mu$$.
 
 #### Naive Monte Carlo Gradient Estimation
-Using the score function (REINFORCE) method, the gradient is given by:
+Using the naive Monte Carlo gradient estimation method described above, the gradient is given by:
 
 $$\nabla_{\mu} \mathbb{E}_{x \sim \mathcal{N}(\mu, \sigma^2)}[f(x)] = \mathbb{E}_{x \sim \mathcal{N}(\mu, \sigma^2)}[f(x) \nabla_{\mu} \log p(x\vert\mu, \sigma)]$$
 

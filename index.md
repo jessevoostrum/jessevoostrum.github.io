@@ -11,6 +11,9 @@ Before, I studied mathematics at the University of Cambridge (Part III) and libe
 
 ## Publications
 
+- **A Concise Mathematical Description of Active Inference in Discrete Time**  
+with: Carlotta Langer, Nihat Ay  
+[arXiv:2406.07726](https://arxiv.org/abs/2406.07726)
 - **On the Fisher-Rao Gradient of the Evidence Lower Bound**  
 with: Nihat Ay  
 _ICML Workshop Duality Principles for Modern Machine Learning 2023_  
