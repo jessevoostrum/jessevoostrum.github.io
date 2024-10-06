@@ -34,14 +34,14 @@ _Information Geometry. Springer. 2022._
 ## Activities
 
 ### Upcoming
-- TBA
+- GSO2025: Guided Self-Organization: Machine Learning in Embodied Agents. Tübingen, Germany. February 2025. 
 
 ### Past
-- The Active Self. Sante Fe Institute working group March 2024
-- Santa Fe Institute summer school on "Intelligence & Representation" in Cambridge UK, August 2023
-- IG4DS: Information Geometry for Data Science
-- MoC3: Models of Consciousness 2022
-- WUPES '22: The 12th Workshop on Uncertainty Processing
-- Conference on Mathematics of Machine Learning, 2021, Bielefeld, Germany
-- GSI 2021: International Conference on Geometric Science of Information, Paris
+- The Active Self. Working group on the self, artificial intelligence and consciousness at the Sante Fe Institute, March 2024. _(organizer)_
+- Santa Fe Institute summer school on "Intelligence & Representation" in Cambridge UK, August 2023.
+- IG4DS: Information Geometry for Data Science, Hamburg, Germany. September 2022. 
+- MoC3: Models of Consciousness, Stanford, USA. September 2022. 
+- WUPES '22: The 12th Workshop on Uncertainty Processing, Kutna Hora, Czech Republic. June 2022. 
+- Conference on Mathematics of Machine Learning, Bielefeld, Germany. August 2021
+- GSI 2021: International Conference on Geometric Science of Information, Paris, France. June 2021. 
 
