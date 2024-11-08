@@ -13,4 +13,5 @@ This blog mainly serves as a personal memory aid. It is a collection of interest
 - Peter van Hintum, personal communication
 
 ### Probability theory
-- ET Jaynes (2003) _Probability Theory: The Logic of Science_
+- Jaynes (2003) _Probability Theory: The Logic of Science_
+- van der Vaart (2023) _Bayesian Statistics Lecture Notes_

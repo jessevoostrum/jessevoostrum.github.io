@@ -19,6 +19,7 @@ title: Blog
 - [Bayesian Reasoning](/blog/bayesian-reasoning)
 - [Laplace's Rule of Succession](/blog/laplaces-rule-of-succession)
 - [Estimators](/blog/estimators)
+- [Lindley's Paradox](/blog/lindleys-paradox)
 
 ### Machine Learning
 
