@@ -10,7 +10,7 @@ This blog mainly serves as a personal memory aid. It is a collection of interest
 ## Sources
 
 ### Riddles
-- Peter van Hintum, personal communication
+- [Peter van Hintum](https://sites.google.com/view/petervanhintum), personal communication
 
 ### Probability theory
 - Jaynes (2003) _Probability Theory: The Logic of Science_

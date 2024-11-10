@@ -14,15 +14,15 @@ $$
 \frac{P(H_1 |x)}{P(H_0 |x)} = \frac{P(H_1)}{P(H_0)} * \frac{P(x | H_1)}{P(x | H_0)}. 
 $$
 
-This shows that our posterior belief about $H_1$ increases when the likelihood ratio $\frac{P(x \vert H_1)}{P(x \vert H_0)}$ (also called the _Bayes factor_) is larger than $1$. 
+This shows that our belief about $H_1$ increases when the likelihood ratio $\frac{P(x \vert H_1)}{P(x \vert H_0)}$ (also called the _Bayes factor_) is larger than $1$. 
 
-For both hypotheses we specify a prior distribution $p(\theta \vert H_i)$, which is used to calculate the likelihood $P(x \vert H_i) = \int_\Theta p(x \vert \theta) p(\theta \vert H_i) d\theta $. Under $H_0$ this is the Dirac distribution at 0. As a prior under $H_1$ we choose a normal distribution with mean 0 and variance $\tau^2$, still to be determined. The Bayes factor between the hypotheses is then given by
+For both hypotheses we specify a prior distribution $p(\theta \vert H_i)$, which is used to calculate the likelihood $P(x \vert H_i) = \int_\Theta p(x \vert \theta) p(\theta \vert H_i) d\theta $ for each hypothesis. Under $H_0$ this is the Dirac distribution at 0. As a prior under $H_1$ we choose a normal distribution with mean 0 and variance $\tau^2$, still to be determined. The Bayes factor between the hypotheses is then given by
 
 $$
-\frac{\int \prod_{i=1}^n \phi\left(X_i-\theta\right) \phi(\theta / \tau) / \tau d \theta}{\prod_{i=1}^n \phi\left(X_i\right)}=\frac{1}{\sqrt{1+n \tau^2}} e^{\frac{1}{2} n \tilde{X}^2 /\left(1+\left(n \tau^2\right)^{-1}\right)} .
+\frac{\int \prod_{i=1}^n \phi\left(X_i-\theta\right) \phi(\theta / \tau) / \tau d \theta}{\prod_{i=1}^n \phi\left(X_i\right)}=\frac{1}{\sqrt{1+n \tau^2}} e^{\frac{1}{2} n \tilde{X}^2 /\left(1+\left(n \tau^2\right)^{-1}\right)} , 
 $$
 
-For $n \tau^2 \gg 1$ this expression is approximately equal to $\tau^{-1} n^{-1 / 2} \exp \left(n \bar{X}^2 / 2\right)$. 
+where $\phi$ is the density of a standard normal distribution. For $n \tau^2 \gg 1$ this expression is approximately equal to $\tau^{-1} n^{-1 / 2} \exp \left(n \bar{X}^2 / 2\right)$. 
 
 For $\bar{X} = 1$ we can visualize whether the Bayes factor is larger than 1 (red) or smaller than 1 (blue) for different values of $\tau$ and $n$. 
 
