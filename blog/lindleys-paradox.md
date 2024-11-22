@@ -57,7 +57,7 @@ If we however also choose $\theta_n$ such that $\sqrt{n} \theta_n \ll \sqrt{\log
 
 Note however that when we choose $\theta_n$ such that $\sqrt{n}\theta_n \to 0$ than the frequentist will also be incorrect. 
 
-Instead of calling this a paradox, one could also start from the assumption that the Bayesian approach is the right approach and use this example as a guiding principle for choosing priors $P(H_i)$ and $p(x|H_i)$. One could then for example conclude that letting $\tau$ go to infinity in $p(x|H_1)$ is not the right uninformative prior. 
+Instead of calling this a paradox, one could also start from the assumption that the Bayesian approach is the right approach and use this example as a guiding principle for choosing priors $P(H_i)$ and $p(x \vert H_i)$. One could then for example conclude that letting $\tau$ go to infinity in $p(x \vert H_1)$ is not the right uninformative prior. 
 
 
 
