@@ -34,9 +34,10 @@ _Information Geometry. Springer. 2022._
 ## Activities
 
 ### Upcoming
-- GSO2025: Guided Self-Organization: Machine Learning in Embodied Agents. Tübingen, Germany. February 2025. 
+TBA
 
 ### Past
+- GSO2025: Guided Self-Organization: Machine Learning in Embodied Agents. Tübingen, Germany. February 2025. 
 - The Active Self. Working group on the self, artificial intelligence and consciousness at the Sante Fe Institute, March 2024. _(organizer)_
 - Santa Fe Institute summer school on "Intelligence & Representation" in Cambridge UK, August 2023.
 - IG4DS: Information Geometry for Data Science, Hamburg, Germany. September 2022. 
