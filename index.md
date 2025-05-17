@@ -13,15 +13,15 @@ Before, I studied mathematics at the University of Cambridge (Part III) and libe
 
 - **A Concise Mathematical Description of Active Inference in Discrete Time**  
 with: Carlotta Langer, Nihat Ay  
-_Journal of Mathematical Psychology_
+_Journal of Mathematical Psychology. Elsevier. 2025._
 [doi:10.1016/j.jmp.2025.102921](https://doi.org/10.1016/j.jmp.2025.102921)[arXiv:2406.07726](https://arxiv.org/abs/2406.07726)
 - **On the Fisher-Rao Gradient of the Evidence Lower Bound**  
 with: Nihat Ay  
-_ICML Workshop Duality Principles for Modern Machine Learning 2023_  
+_ICML Workshop Duality Principles for Modern Machine Learning 2023._  
 [arXiv:2307.11249](https://arxiv.org/abs/2307.11249)
 - **Inversion of Bayesian Networks**   
 with: Peter van Hintum, Nihat Ay  
-_International Journal of Approximate Reasoning. Elsevier. 2023_
+_International Journal of Approximate Reasoning. Elsevier. 2023._
 [doi:10.1016/j.ijar.2023.109042](https://doi.org/10.1016/j.ijar.2023.109042)
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
 - **Invariance Properties of the Natural Gradient in Overparametrised Systems**  
