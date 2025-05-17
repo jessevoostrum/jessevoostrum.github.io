@@ -13,7 +13,8 @@ Before, I studied mathematics at the University of Cambridge (Part III) and libe
 
 - **A Concise Mathematical Description of Active Inference in Discrete Time**  
 with: Carlotta Langer, Nihat Ay  
-[arXiv:2406.07726](https://arxiv.org/abs/2406.07726)
+_Journal of Mathematical Psychology_
+[doi:10.1016/j.jmp.2025.102921](https://doi.org/10.1016/j.jmp.2025.102921)[arXiv:2406.07726](https://arxiv.org/abs/2406.07726)
 - **On the Fisher-Rao Gradient of the Evidence Lower Bound**  
 with: Nihat Ay  
 _ICML Workshop Duality Principles for Modern Machine Learning 2023_  
@@ -21,13 +22,13 @@ _ICML Workshop Duality Principles for Modern Machine Learning 2023_
 - **Inversion of Bayesian Networks**   
 with: Peter van Hintum, Nihat Ay  
 _International Journal of Approximate Reasoning. Elsevier. 2023_
-[10.1016/j.ijar.2023.109042.](https://doi.org/10.1016/j.ijar.2023.109042.)
+[doi:10.1016/j.ijar.2023.109042](https://doi.org/10.1016/j.ijar.2023.109042)
 [arXiv:2212.10649](https://arxiv.org/abs/2212.10649)
-- **Invariance properties of the natural gradient in overparametrised systems**  
+- **Invariance Properties of the Natural Gradient in Overparametrised Systems**  
 with: Johannes Müller, Nihat Ay   
 _Information Geometry. Springer. 2022._  
 [doi:10.1007/s41884-022-00067-9](https://doi.org/10.1007/s41884-022-00067-9) [arXiv:2206.15273](https://arxiv.org/abs/2206.15273)
-- **Bures-Wasserstein geometry for positive-definite Hermitian matrices and their trace-one subset**  
+- **Bures-Wasserstein Geometry for Positive-Definite Hermitian Matrices and their Trace-One Subset**  
 _Information Geometry. Springer. 2022._   
 [doi:10.1007/s41884-022-00069-7](https://doi.org/10.1007/s41884-022-00069-7) [arXiv:2001.08056](https://arxiv.org/abs/2001.08056)
 
